@@ -1,6 +1,6 @@
-function criaCartao(categoria, pergunta, resposta) {
-    let container = document.getElementById('container')
-    let cartao = document.createElement('article')
+function VerFlashCard (categoria, pergunta, resposta) {
+    let Cartão = document.getElementById('container')
+    let FlashCard = document.createElement('article')
     cartao.className = 'cartao'
 
     cartao.innerHTML = `
@@ -14,6 +14,6 @@ function criaCartao(categoria, pergunta, resposta) {
     </div>
     </div>
     `
-    container.appendChild(cartao)
+    Cartão.appendChild(cartao)
 
 }
